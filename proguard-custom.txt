@@ -114,3 +114,9 @@
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
 -keep class com.ionicframework.cordova.webview.*
+
+-keep public class * extends com.phonegap.api.Plugin 
+-keep public class org.apache.cordova.DroidGap 
+-keep public class org.apache.cordova.** 
+-libraryjars /Users/Nasir/Desktop/libs/commons-codec.jar
+-dontwarn android.webkit.*
